@@ -47,5 +47,5 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
             /* file name */
             fileName: "My Plan.pdf"
         }
-    }, viewerConfig);
+    }, {defaultViewMode: "FIT_WIDTH", showAnnotationTools: false, showPrintPDF: false});
 });
